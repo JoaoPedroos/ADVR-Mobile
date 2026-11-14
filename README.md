@@ -18,7 +18,8 @@ Aplicativo Android nativo (Java + XML + SQLite)
 
 Todas as contas abaixo já vêm configuradas no banco de dados local com a senha padrão **`Teste123!`**:
 
-|      Perfil       |      Nome     |    E-mail de Acesso   |      CPF      |    Senha    |
-| **Administrador** | Administrador | `admin@advr.com.br`   | `52998224725` | `Teste123!` |
-| **Advogado**      | Dra. Ana Paula| `advogado@advr.com.br`| `12345678909` | `Teste123!` |
-| **Cliente**       | Mariana Silva | `cliente@advr.com.br` | `11144477735` | `Teste123!` |
+| Perfil | Nome | E-mail de Acesso | CPF | Senha |
+| :--- | :--- | :--- | :--- | :--- |
+| **Administrador** | Dra. Helena Vasconcelos | `admin@advr.com.br` | `52998224725` | `Teste123!` |
+| **Advogado** | Dr. Carlos Andrade | `advogado@advr.com.br` | `12345678909` | `Teste123!` |
+| **Cliente** | Mariana Silva | `cliente@advr.com.br` | `11144477735` | `Teste123!` |
