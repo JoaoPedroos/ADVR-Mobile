@@ -20,6 +20,6 @@ Todas as contas abaixo já vêm configuradas no banco de dados local com a senha
 
 | Perfil | Nome | E-mail de Acesso | CPF | Senha |
 | :--- | :--- | :--- | :--- | :--- |
-| **Administrador** | Dra. Helena Vasconcelos | `admin@advr.com.br` | `52998224725` | `Teste123!` |
-| **Advogado** | Dr. Carlos Andrade | `advogado@advr.com.br` | `12345678909` | `Teste123!` |
-| **Cliente** | Mariana Silva | `cliente@advr.com.br` | `11144477735` | `Teste123!` |
+| **Administrador** | Administrador ADVR | `admin@advr.com` | `52998224725` | `Teste123!` |
+| **Advogado** | Dr. Ana Paula | `ana@advr.com` | `12345678909` | `Teste123!` |
+| **Cliente** | Mariana Silva | `mariana@teste.com` | `11144477735` | `Teste123!` |
