@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Body"
-            android:text="Sua justiça simplificada na palma da mão"
+            android:text="Suas informações juridicas na palma da mão"
             android:gravity="center"
             android:layout_marginBottom="32dp" />
 
@@ -105,38 +105,6 @@
             style="@style/LinkButton"
             android:text="Criar nova conta" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            style="@style/Card">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/Label"
-                android:text="Outras formas de acesso" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/Body"
-                android:text="Login com Google e Facebook ainda não disponível nesta versão." />
-
-            <Button
-                android:id="@+id/botao_google"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/SecondaryButton"
-                android:text="Google • saiba mais" />
-
-            <Button
-                android:id="@+id/botao_facebook"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/SecondaryButton"
-                android:text="Facebook • saiba mais" />
-        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
