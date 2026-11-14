@@ -1,0 +1,257 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/canvas">
+
+    <include layout="@layout/include_cabecalho" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                style="@style/Card">
+
+                <TextView
+                    android:id="@+id/texto_avatar_perfil"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/bg_avatar"
+                    android:text="U"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="14dp" />
+
+                <TextView
+                    android:id="@+id/texto_nome_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Section"
+                    android:text="Meu perfil"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/texto_email_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Body"
+                    android:text=""
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/texto_tipo_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Badge"
+                    android:text=""
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                style="@style/Card">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Section"
+                    android:text="Editar meus dados" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="Nome completo"
+                    android:labelFor="@+id/campo_nome" />
+
+                <EditText
+                    android:id="@+id/campo_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="Nome completo"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="Telefone"
+                    android:labelFor="@+id/campo_telefone" />
+
+                <EditText
+                    android:id="@+id/campo_telefone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="Telefone"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="E-mail"
+                    android:labelFor="@+id/campo_email" />
+
+                <EditText
+                    android:id="@+id/campo_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="CPF"
+                    android:labelFor="@+id/campo_cpf" />
+
+                <EditText
+                    android:id="@+id/campo_cpf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="CPF"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Body"
+                    android:text="Para alterar CPF ou e-mail, entre em contato com o escritório." />
+
+                <Button
+                    android:id="@+id/botao_salvar_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/PrimaryButton"
+                    android:text="Salvar alterações" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                style="@style/Card">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Section"
+                    android:text="Segurança da conta" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Body"
+                    android:text="Método de login: e-mail e senha" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="Senha atual"
+                    android:labelFor="@+id/campo_senha_atual" />
+
+                <EditText
+                    android:id="@+id/campo_senha_atual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="Senha atual"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="Nova senha"
+                    android:labelFor="@+id/campo_nova_senha" />
+
+                <EditText
+                    android:id="@+id/campo_nova_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="Mínimo de 8 caracteres"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Label"
+                    android:text="Confirmar nova senha"
+                    android:labelFor="@+id/campo_confirmar_senha" />
+
+                <EditText
+                    android:id="@+id/campo_confirmar_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Field"
+                    android:hint="Confirmar nova senha"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/botao_alterar_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SecondaryButton"
+                    android:text="Atualizar senha" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/botao_voltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/LinkButton"
+                android:text="Voltar ao início" />
+
+            <ProgressBar
+                android:id="@+id/barra_progresso"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/texto_mensagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Body"
+                android:text=""
+                android:textColor="@color/danger"
+                android:accessibilityLiveRegion="polite"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/include_navegacao" />
+</LinearLayout>
