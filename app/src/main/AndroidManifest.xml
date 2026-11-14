@@ -13,7 +13,6 @@
         <activity android:name=".PainelPrincipalActivity" android:exported="false" />
         <activity android:name=".CadastroUsuarioActivity" android:exported="false" />
         <activity android:name=".ConfiguracaoInicialActivity" android:exported="false" />
-        <uses-permission android:name="android.permission.INTERNET" />
         <activity android:name=".TelaLoginActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
